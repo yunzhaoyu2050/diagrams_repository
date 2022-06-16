@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T08:44:59.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="N9UypYn1v6BFZRM5VRBQ" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:49:50.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nu78OKYEo-HD3KviCo9I" version="20.0.1" type="github">
   <diagram id="wD-ZX2X2WNgWiX13pClH" name="Page-1">
     <mxGraphModel dx="785" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,10 +68,13 @@
           <mxGeometry x="690" y="970" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bsCm_6E_pGMefL_QfDVL-14" value="&lt;div&gt;选择dialog板型选项&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1040" width="240" height="40" as="geometry" />
+          <mxGeometry x="750" y="1040" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bsCm_6E_pGMefL_QfDVL-15" value="&lt;div&gt;source &quot;${SRC}/config/boards/${BOARD}.${BOARD_TYPE}&quot; # 使能板型配置文件&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="655" y="1110" width="310" height="50" as="geometry" />
+          <mxGeometry x="655" y="1090" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-16" value="&lt;div&gt;选择dialog选项(server/desktop environment)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1169" width="240" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
