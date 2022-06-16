@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T02:41:27.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="7BC3O2PFPRS_7c86CdSu" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T06:49:43.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="RJX86ACvRdC6fntj39QN" version="20.0.1" type="github">
   <diagram id="wD-ZX2X2WNgWiX13pClH" name="Page-1">
-    <mxGraphModel dx="1195" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1374" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,14 +46,17 @@
         <mxCell id="xksXhpwBXvCgZ0GnoB5N-19" value="source &quot;${SRC}&quot;/lib/extensions.sh # 获取扩展管理器库" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="510" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SzC1l6cs5nSfTwcxTcUp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="1" source="xksXhpwBXvCgZ0GnoB5N-20" target="SzC1l6cs5nSfTwcxTcUp-25">
+        <mxCell id="SzC1l6cs5nSfTwcxTcUp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" parent="1" source="xksXhpwBXvCgZ0GnoB5N-20" target="SzC1l6cs5nSfTwcxTcUp-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xksXhpwBXvCgZ0GnoB5N-20" value="source &quot;${SRC}&quot;/lib/main.sh \# shellcheck source=lib/main.sh # 主函数逻辑" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="580" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SzC1l6cs5nSfTwcxTcUp-25" value="&lt;div&gt;source &quot;${SRC}&quot;/lib/debootstrap.sh # 系统特定安装&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="SzC1l6cs5nSfTwcxTcUp-25" value="&lt;div&gt;source &quot;${SRC}&quot;/lib/debootstrap.sh # 系统特定安装&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="690" y="580" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-10" value="&lt;div&gt;source &quot;${SRC}&quot;/lib/debootstrap.sh # 系统特定安装&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/image-helpers.sh # 操作系统映像构建的助手&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/distributions.sh # 系统特定安装&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/desktop.sh # 桌面特定安装&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/compilation.sh # 内核、uboot、ATF的补丁和编译&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/compilation-prepare.sh # 未上游的驱动程序&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/makeboarddeb.sh # 板级支持包&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/general.sh # 一般功能&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/chroot-buildpackages.sh # chroot 软件包构建&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="630" y="650" width="390" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
