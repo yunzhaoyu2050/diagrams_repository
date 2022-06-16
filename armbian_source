@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T08:49:50.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nu78OKYEo-HD3KviCo9I" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:54:06.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="6v7RXkRElcknVLndeMAM" version="20.0.1" type="github">
   <diagram id="wD-ZX2X2WNgWiX13pClH" name="Page-1">
-    <mxGraphModel dx="785" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3926" dy="2700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,29 +52,68 @@
         <mxCell id="xksXhpwBXvCgZ0GnoB5N-20" value="source &quot;${SRC}&quot;/lib/main.sh \# shellcheck source=lib/main.sh # 主函数逻辑" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="580" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SzC1l6cs5nSfTwcxTcUp-25" target="bsCm_6E_pGMefL_QfDVL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SzC1l6cs5nSfTwcxTcUp-25" value="&lt;div&gt;[[ -z $LANGUAGE ]] &amp;amp;&amp;amp; export LANGUAGE=&quot;en_US:en&quot; # 设置语言&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="690" y="580" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsCm_6E_pGMefL_QfDVL-10" target="bsCm_6E_pGMefL_QfDVL-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bsCm_6E_pGMefL_QfDVL-10" value="&lt;div&gt;source &quot;${SRC}&quot;/lib/debootstrap.sh # 系统特定安装&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/image-helpers.sh # 操作系统映像构建的助手&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/distributions.sh # 系统特定安装&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/desktop.sh # 桌面特定安装&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/compilation.sh # 内核、uboot、ATF的补丁和编译&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/compilation-prepare.sh # 未上游的驱动程序&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/makeboarddeb.sh # 板级支持包&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/general.sh # 一般功能&lt;/div&gt;&lt;div&gt;source &quot;${SRC}&quot;/lib/chroot-buildpackages.sh # chroot 软件包构建&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="615" y="720" width="390" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bsCm_6E_pGMefL_QfDVL-11" target="bsCm_6E_pGMefL_QfDVL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bsCm_6E_pGMefL_QfDVL-11" value="&lt;div&gt;[[ -z $CONSOLE_CHAR ]] &amp;amp;&amp;amp; export CONSOLE_CHAR=&quot;UTF-8&quot; # 设置字符集&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="690" y="650" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsCm_6E_pGMefL_QfDVL-12" target="bsCm_6E_pGMefL_QfDVL-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bsCm_6E_pGMefL_QfDVL-12" value="&lt;div&gt;[[ $PRIVATE_CCACHE == yes ]] &amp;amp;&amp;amp; export CCACHE_DIR=$SRC/cache/ccache #&amp;nbsp;私有 ccache 目录，以避免在使用带有“sudo”的构建脚本时出现权限问题&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="655" y="890" width="310" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsCm_6E_pGMefL_QfDVL-13" target="bsCm_6E_pGMefL_QfDVL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bsCm_6E_pGMefL_QfDVL-13" value="&lt;div&gt;选择dialog选项(U-boot and kernel/Full OS image)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="690" y="970" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsCm_6E_pGMefL_QfDVL-14" target="bsCm_6E_pGMefL_QfDVL-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bsCm_6E_pGMefL_QfDVL-14" value="&lt;div&gt;选择dialog板型选项&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="1040" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsCm_6E_pGMefL_QfDVL-15" target="bsCm_6E_pGMefL_QfDVL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bsCm_6E_pGMefL_QfDVL-15" value="&lt;div&gt;source &quot;${SRC}/config/boards/${BOARD}.${BOARD_TYPE}&quot; # 使能板型配置文件&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="655" y="1090" width="310" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsCm_6E_pGMefL_QfDVL-16" target="bsCm_6E_pGMefL_QfDVL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bsCm_6E_pGMefL_QfDVL-16" value="&lt;div&gt;选择dialog选项(server/desktop environment)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1169" width="240" height="20" as="geometry" />
+          <mxGeometry x="685" y="1169" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bsCm_6E_pGMefL_QfDVL-17" target="bsCm_6E_pGMefL_QfDVL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-17" value="&lt;div&gt;source &quot;${SRC}&quot;/lib/configuration.sh #&amp;nbsp;使能configuration.sh脚本(常用配置参数)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="1220" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.495;entryY=-0.081;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bsCm_6E_pGMefL_QfDVL-18" target="bsCm_6E_pGMefL_QfDVL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-18" value="&lt;div&gt;BOOTSOURCEDIR=&quot;${BOOTDIR}/$(branch2dir &quot;${BOOTBRANCH}&quot;)&quot;&lt;/div&gt;&lt;div&gt;LINUXSOURCEDIR=&quot;${KERNELDIR}/$(branch2dir &quot;${KERNELBRANCH}&quot;)&quot;&lt;/div&gt;&lt;div&gt;[[ -n $ATFSOURCE ]] &amp;amp;&amp;amp; ATFSOURCEDIR=&quot;${ATFDIR}/$(branch2dir &quot;${ATFBRANCH}&quot;)&quot;&lt;/div&gt;&lt;div&gt;BSP_CLI_PACKAGE_NAME=&quot;armbian-bsp-cli-${BOARD}${EXTRA_BSP_NAME}&quot;&lt;/div&gt;&lt;div&gt;BSP_CLI_PACKAGE_FULLNAME=&quot;${BSP_CLI_PACKAGE_NAME}_${REVISION}_${ARCH}&quot;&lt;/div&gt;&lt;div&gt;BSP_DESKTOP_PACKAGE_NAME=&quot;armbian-bsp-desktop-${BOARD}${EXTRA_BSP_NAME}&quot;&lt;/div&gt;&lt;div&gt;BSP_DESKTOP_PACKAGE_FULLNAME=&quot;${BSP_DESKTOP_PACKAGE_NAME}_${REVISION}_${ARCH}&quot;&lt;/div&gt;&lt;div&gt;CHOSEN_UBOOT=linux-u-boot-${BRANCH}-${BOARD}&lt;/div&gt;&lt;div&gt;CHOSEN_KERNEL=linux-image-${BRANCH}-${LINUXFAMILY}&lt;/div&gt;&lt;div&gt;CHOSEN_ROOTFS=${BSP_CLI_PACKAGE_NAME}&lt;/div&gt;&lt;div&gt;CHOSEN_DESKTOP=armbian-${RELEASE}-desktop-${DESKTOP_ENVIRONMENT}&lt;/div&gt;&lt;div&gt;CHOSEN_KSRC=linux-source-${BRANCH}-${LINUXFAMILY}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="1280" width="585" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-19" value="&lt;div&gt;do_default函数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1490" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
