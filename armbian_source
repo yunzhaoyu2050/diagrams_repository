@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T08:54:06.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="6v7RXkRElcknVLndeMAM" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T09:13:29.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OoossriJR-41_uVK3aFj" version="20.0.1" type="github">
   <diagram id="wD-ZX2X2WNgWiX13pClH" name="Page-1">
-    <mxGraphModel dx="3926" dy="2700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,8 +112,17 @@
         <mxCell id="bsCm_6E_pGMefL_QfDVL-18" value="&lt;div&gt;BOOTSOURCEDIR=&quot;${BOOTDIR}/$(branch2dir &quot;${BOOTBRANCH}&quot;)&quot;&lt;/div&gt;&lt;div&gt;LINUXSOURCEDIR=&quot;${KERNELDIR}/$(branch2dir &quot;${KERNELBRANCH}&quot;)&quot;&lt;/div&gt;&lt;div&gt;[[ -n $ATFSOURCE ]] &amp;amp;&amp;amp; ATFSOURCEDIR=&quot;${ATFDIR}/$(branch2dir &quot;${ATFBRANCH}&quot;)&quot;&lt;/div&gt;&lt;div&gt;BSP_CLI_PACKAGE_NAME=&quot;armbian-bsp-cli-${BOARD}${EXTRA_BSP_NAME}&quot;&lt;/div&gt;&lt;div&gt;BSP_CLI_PACKAGE_FULLNAME=&quot;${BSP_CLI_PACKAGE_NAME}_${REVISION}_${ARCH}&quot;&lt;/div&gt;&lt;div&gt;BSP_DESKTOP_PACKAGE_NAME=&quot;armbian-bsp-desktop-${BOARD}${EXTRA_BSP_NAME}&quot;&lt;/div&gt;&lt;div&gt;BSP_DESKTOP_PACKAGE_FULLNAME=&quot;${BSP_DESKTOP_PACKAGE_NAME}_${REVISION}_${ARCH}&quot;&lt;/div&gt;&lt;div&gt;CHOSEN_UBOOT=linux-u-boot-${BRANCH}-${BOARD}&lt;/div&gt;&lt;div&gt;CHOSEN_KERNEL=linux-image-${BRANCH}-${LINUXFAMILY}&lt;/div&gt;&lt;div&gt;CHOSEN_ROOTFS=${BSP_CLI_PACKAGE_NAME}&lt;/div&gt;&lt;div&gt;CHOSEN_DESKTOP=armbian-${RELEASE}-desktop-${DESKTOP_ENVIRONMENT}&lt;/div&gt;&lt;div&gt;CHOSEN_KSRC=linux-source-${BRANCH}-${LINUXFAMILY}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="517.5" y="1280" width="585" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="bsCm_6E_pGMefL_QfDVL-19" value="&lt;div&gt;do_default函数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-19" value="&lt;div&gt;do_default&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="1490" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-30" value="&lt;div&gt;prepare_host #检查并安装依赖项、目录结构和设置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1490" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-31" value="&lt;div&gt;fetch_from_repo &quot;$BOOTSOURCE&quot;&amp;nbsp; # 拉取boot源码&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1540" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCm_6E_pGMefL_QfDVL-32" value="&lt;div&gt;fetch_from_repo &quot;$ATFSOURCE&quot;&amp;nbsp; # 拉取aft源码&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1590" width="340" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
