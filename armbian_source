@@ -1,53 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T15:10:53.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="rfCGwJZZK-ujwejoS0eB" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T02:41:27.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="7BC3O2PFPRS_7c86CdSu" version="18.2.0" type="github">
   <diagram id="wD-ZX2X2WNgWiX13pClH" name="Page-1">
-    <mxGraphModel dx="948" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;" edge="1" parent="1" source="9CjCVikkidnBDqoJi5Le-1" target="9CjCVikkidnBDqoJi5Le-3">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;shadow=0;" parent="1" source="9CjCVikkidnBDqoJi5Le-1" target="9CjCVikkidnBDqoJi5Le-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9CjCVikkidnBDqoJi5Le-1" value="./compile.sh # 执行编译脚本" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="9CjCVikkidnBDqoJi5Le-1" value="./compile.sh # 执行编译脚本" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="240" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="9CjCVikkidnBDqoJi5Le-3" target="xksXhpwBXvCgZ0GnoB5N-7">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Lucida Console;shadow=0;" parent="1" source="9CjCVikkidnBDqoJi5Le-3" target="xksXhpwBXvCgZ0GnoB5N-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9CjCVikkidnBDqoJi5Le-3" value="./lib/general.sh # 使能函数钩子" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="9CjCVikkidnBDqoJi5Le-3" value="./lib/general.sh # 使能函数钩子" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;sketch=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="240" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;" edge="1" parent="1" source="xksXhpwBXvCgZ0GnoB5N-7" target="xksXhpwBXvCgZ0GnoB5N-12">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;shadow=0;" parent="1" source="xksXhpwBXvCgZ0GnoB5N-7" target="xksXhpwBXvCgZ0GnoB5N-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-7" value="prepare_host_basic # 检查主机环境及其基本依赖" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-7" value="prepare_host_basic # 检查主机环境及其基本依赖" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="290" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="xksXhpwBXvCgZ0GnoB5N-12" target="xksXhpwBXvCgZ0GnoB5N-17">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;shadow=0;" parent="1" source="xksXhpwBXvCgZ0GnoB5N-12" target="xksXhpwBXvCgZ0GnoB5N-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-12" value="docker执行构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-12" value="docker执行构建" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="340" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="xksXhpwBXvCgZ0GnoB5N-17" target="xksXhpwBXvCgZ0GnoB5N-18">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;shadow=0;" parent="1" source="xksXhpwBXvCgZ0GnoB5N-17" target="xksXhpwBXvCgZ0GnoB5N-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-17" value="mkdir -p &quot;${SRC}&quot;/userpatches # 如果不存在则创建用户补丁目录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-17" value="mkdir -p &quot;${SRC}&quot;/userpatches # 如果不存在则创建用户补丁目录" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="390" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="xksXhpwBXvCgZ0GnoB5N-18" target="xksXhpwBXvCgZ0GnoB5N-19">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;shadow=0;" parent="1" source="xksXhpwBXvCgZ0GnoB5N-18" target="xksXhpwBXvCgZ0GnoB5N-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-18" value="创建config文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-18" value="创建config文件" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="460" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="xksXhpwBXvCgZ0GnoB5N-19" target="xksXhpwBXvCgZ0GnoB5N-20">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;shadow=0;" parent="1" source="xksXhpwBXvCgZ0GnoB5N-19" target="xksXhpwBXvCgZ0GnoB5N-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-19" value="source &quot;${SRC}&quot;/lib/extensions.sh # 获取扩展管理器库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-19" value="source &quot;${SRC}&quot;/lib/extensions.sh # 获取扩展管理器库" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="510" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xksXhpwBXvCgZ0GnoB5N-20" value="source &quot;${SRC}&quot;/lib/main.sh \# shellcheck source=lib/main.sh # 主函数逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SzC1l6cs5nSfTwcxTcUp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="1" source="xksXhpwBXvCgZ0GnoB5N-20" target="SzC1l6cs5nSfTwcxTcUp-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xksXhpwBXvCgZ0GnoB5N-20" value="source &quot;${SRC}&quot;/lib/main.sh \# shellcheck source=lib/main.sh # 主函数逻辑" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="580" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SzC1l6cs5nSfTwcxTcUp-25" value="&lt;div&gt;source &quot;${SRC}&quot;/lib/debootstrap.sh # 系统特定安装&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="580" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
